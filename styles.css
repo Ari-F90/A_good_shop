@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  color: #1f2a37;
+  background: #f4f7fb;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -20px;
+  padding: 18px 20px;
+  background: #1d3557;
+  color: white;
+}
+header p {
+  margin: 0;
+  font-size: 15px;
+}
+h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #1d3557;
+}
+#estado {
+  min-height: 24px;
+  margin: 18px 0;
+  color: #4b5b6b;
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+main section {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 16px 10px;
+  border-bottom: 1px solid #e3e8ee;
+  text-align: left;
+}
+th {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #6b7a8a;
+}
+tbody tr:hover {
+  background: #f0f5fb;
+}
+small {
+  display: block;
+  margin-top: 6px;
+  color: #7a8794;
+}
+
+button {
+  cursor: pointer;
+}
+td button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 50%;
+  background: #e63946;
+  color: white;
+}
+td button:hover {
+  background: #c1121f;
+}
+td input {
+  width: 46px;
+  padding: 6px 3px;
+  text-align: center;
+  border: 1px solid #c5ced8;
+  border-radius: 4px;
+}
+
+aside {
+  width: 290px;
+  padding: 22px;
+  background: white;
+  border-top: 5px solid #e63946;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+li {
+  margin: 14px 0;
+  font-size: 14px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 2px dashed #c5ced8;
+  font-size: 18px;
+}
+.total strong {
+  color: #e63946;
+}
+li.vacio {
+  color: #8a95a1;
+  font-style: italic;
+}
+#vaciar {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #1d3557;
+  border-radius: 4px;
+  background: white;
+  color: #1d3557;
+}
+
+#vaciar:hover {
+  background: #1d3557;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #7a8794;
+}

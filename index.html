@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>A good shop - DAW</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>A good shop - By Ariadna Frias</h1>
+        <p>Mi carrito: <strong id="numArticulos">0 artículos</strong></p>
+    </header>
+
+    <p id="estado">Cargando productos...</p>
+    
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaProductos"></tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h2>Tu carrito</h2>
+            <ul id="listaCarrito"></ul>
+            <p class="total">TOTAL <strong id="total">0.00 EUR</strong></p>
+            <button type="button" id="vaciar">Vaciar carrito</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Actividad 1 · Desarrollo Web Entorno Cliente · 2º DAW</p>
+    </footer>
+</body>
+</html>
