@@ -167,7 +167,7 @@ function mostrarListaCarrito() {
   total.innerText = dinero(datos.total);
 }
 
-// Llamamos a las dos funciones annteriores para mostrar todo por pantalla
+// Llamamos a las dos funciones anteriores para mostrar todo por pantalla
 function mostrarTodo(){
   mostrarProductos();
   mostrarListaCarrito();
@@ -176,7 +176,7 @@ function mostrarTodo(){
 
 // 4. ACCIONES DEL USUARIO
 
-// Cada botón cambia las unidades y se vuelve a dibujar todo
+// Cada botón cambia la cantidad de cada producto
 function cambiar(id, cambio) {
   const producto = carrito.obtenerInformacionProducto(id);
   carrito.actualizarUnidades(id, producto.cantidad + cambio);
